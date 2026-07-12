@@ -41,6 +41,8 @@ apis:
       - type: x-api-endpoint
         url: https://transparenz.karlsruhe.de/api/3/action/status_show
 common:
+  - type: DomainSecurity
+    url: security/transparenz-karlsruhe-de-domain-security.yml
   - type: Website
     url: https://transparenz.karlsruhe.de
   - type: Documentation
